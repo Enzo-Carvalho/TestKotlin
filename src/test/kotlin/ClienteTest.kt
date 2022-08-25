@@ -17,14 +17,8 @@ internal class ClienteTest {
 
     @Test
     fun adicionarItemTeste() {
-        var erro = false
+       cliente1.adicionarItem("")
 
-        try {
-            val clienteTest = Cliente("", "lkdsjf", "askldjf")
-        }catch (e: Exception){
-            erro = true
-        }
-        assertTrue(erro)
     }
 
     @Test
