@@ -17,7 +17,9 @@ internal class ClienteTest {
 
     @Test
     fun adicionarItemTeste() {
-       cliente1.adicionarItem("")
+       cliente1.adicionarItem("Suco")
+
+        assertTrue(cliente1.listaDeCompras.contains("Suco"))
 
     }
 

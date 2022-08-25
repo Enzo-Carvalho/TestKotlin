@@ -8,7 +8,7 @@ class Cliente(
     val listaDeCompras: List<String> = _listaDeCompras
 
     fun adicionarItem(item: String) {
-        if (item.isNotBlank()) {
+        if (item.isBlank()) {
             _listaDeCompras.add(item)
         }
     }
