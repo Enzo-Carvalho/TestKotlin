@@ -7,11 +7,10 @@ class Cliente(
     private var _listaDeCompras = (mutableListOf<String>())
     val listaDeCompras: List<String> = _listaDeCompras
 
-    fun adicionarItem(item: String){
-        if(item == ""){
-            throw Exception ("Nome inválido para itens")
+    fun adicionarItem(item: String) {
+        if (item.isNotBlank()) {
+            _listaDeCompras.add(item)
         }
-        _listaDeCompras.add(item)
     }
 
     fun removerItem(item: String){
