@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ClienteTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-25T18:49:05" hostname="DESKTOP-CPSF1E4" time="0.066">
+  <properties/>
+  <testcase name="removerItemTeste()" classname="ClienteTest" time="0.066"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
